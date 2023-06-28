@@ -1,0 +1,23 @@
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Start test public:0:nfa_accept.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Test public:0:nfa_accept is successful.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: End test public:0:nfa_accept.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Start test public:2:nfa_move.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Test public:2:nfa_move is successful.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: End test public:2:nfa_move.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Start test public:4:re_to_nfa.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 E: Test public:4:re_to_nfa has failed.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 E: NFA should have accept string 'a', but did not in test public:4:re_to_nfa.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 E: Called from Dune__exe__Public.test_re_to_nfa in file "test/public/public.ml", line 169, characters 2-26
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 E: 
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: End test public:4:re_to_nfa.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Start test public:5:str_to_nfa.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Test public:5:str_to_nfa is successful.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: End test public:5:str_to_nfa.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Start test public:8:nfa_new_finals.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Test public:8:nfa_new_finals is successful.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: End test public:8:nfa_new_finals.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Start test public:9:regex_to_nfa.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: Test public:9:regex_to_nfa is successful.
+2023-04-07T03:40:33+00:00 wireless-10-104-81-24.umd.edu#01 I: End test public:9:regex_to_nfa.
